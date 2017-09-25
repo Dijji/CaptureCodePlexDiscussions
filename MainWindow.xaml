@@ -1,0 +1,17 @@
+﻿<Window x:Class="GetDiscussions.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GetDiscussions"
+        mc:Ignorable="d"
+        Title="Get Discussions" Height="224.865" Width="260.118">
+    <Grid HorizontalAlignment="Left" Width="210">
+        <Label Content="Site:" HorizontalAlignment="Left" Margin="25,19,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="checkWord" Height="23" Margin="25,56,0,115" Content="Save as Word doc" IsChecked="True"/>
+        <CheckBox x:Name="checkXml" Height="23" Margin="25,76,0,95" Content="Save as XML"/>
+        <TextBox x:Name="site" Text="FileMeta"  HorizontalAlignment="Left" Height="23" Margin="57,23,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Get Discussions" HorizontalAlignment="Left" Margin="25,107,0,0" VerticalAlignment="Top" Width="111" Click="Get_Click" RenderTransformOrigin="-0.01,-8.577"/>
+        <Label x:Name="status" Content="" HorizontalAlignment="Left" Margin="25,147,-8,10" Width="193"/>
+    </Grid>
+</Window>
