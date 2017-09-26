@@ -9,7 +9,7 @@
     <Grid HorizontalAlignment="Left" Width="210">
         <Label Content="Site:" HorizontalAlignment="Left" Margin="25,19,0,0" VerticalAlignment="Top"/>
         <CheckBox x:Name="checkWord" Height="23" Margin="25,56,0,115" Content="Save as Word doc" IsChecked="True"/>
-        <CheckBox x:Name="checkXml" Height="23" Margin="25,76,0,95" Content="Save as XML"/>
+        <CheckBox x:Name="checkXml" Height="23" Margin="25,76,0,95" Content="Save as XML" IsChecked="True"/>
         <TextBox x:Name="site" Text="FileMeta"  HorizontalAlignment="Left" Height="23" Margin="57,23,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Button Content="Get Discussions" HorizontalAlignment="Left" Margin="25,107,0,0" VerticalAlignment="Top" Width="111" Click="Get_Click" RenderTransformOrigin="-0.01,-8.577"/>
         <Label x:Name="status" Content="" HorizontalAlignment="Left" Margin="25,147,-8,10" Width="193"/>
